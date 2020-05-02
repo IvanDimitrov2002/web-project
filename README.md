@@ -6,8 +6,8 @@ To be edited...
 
 - Live reloading
 - Cache busting
-- SCSS converted to css, auto prefixed and minified with sourcemaps)
-- Javascript concatenated into a single file, minified with sourcemaps and supports ES6)
+- SCSS converted to css, auto prefixed and minified with sourcemaps
+- Javascript concatenated into a single file, minified with sourcemaps and supports ES6
 - Image minifying
 
 ## Getting Started
@@ -40,27 +40,33 @@ Follow these steps in order to get the website up and running locally on your ma
 │   ├── images
 │   │
 │   ├── js
-│   │   ├── main.js
-│   │   │
-│   │   └── vendors
+│   │   └── *.js
 │   │
-│   └── scss
-│       ├── abstracts
-│       │
-│       ├── base
-│       │
-│       ├── pages
-│       │
-│       └── main.scss
+│   ├── scss
+│   │   ├── general
+│   │   │
+│   │   ├── pages
+│   │   │
+│   │   └── main.scss
+│   │
+│   ├── *.html
+│   │
+│   └── favicon.ico
 │
 └── build
-    ├── images
-    │
-    ├── js
-    │   ├── app.min.js
+    ├── assets
+    │   ├── images
     │   │
-    │   └── vendors.min.js
+    │   ├── js
+    │   │   └── app.min.js
+    │   │
+    │   └── css
+    │       └── styles.min.css
     │
-    └── css
-        └── styles.min.css
+    ├── *.html
+    │
+    └── favicon.ico
 ```
+
+## Hosted
+- The project is hosted on Vercel. The link is in the repository's description.

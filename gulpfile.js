@@ -27,10 +27,6 @@ const paths = {
     src: './app/js/**/*.js',
     dest: './build/assets/js'
   },
-  vendors: {
-    src: './app/js/vendors/**/*.js',
-    dest: './build/assets/js'
-  },
   images: {
     src: './app/images/**/*',
     dest: './build/assets/images'
@@ -66,7 +62,9 @@ const styles = () =>
     .src(paths.styles.src)
     .pipe(plumber())
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+      includePaths: require("scss-resets").includePaths
+    }).on('error', sass.logError))
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(
       rename({
@@ -94,22 +92,6 @@ const scripts = () =>
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(paths.scripts.dest));
 
-// Minify all javascript vendors/libs and concat them into a single vendors.min.js
-const vendors = () =>
-  gulp
-    .src(paths.vendors.src)
-    .pipe(plumber())
-    .pipe(sourcemaps.init())
-    .pipe(
-      babel({
-        presets: ['@babel/preset-env']
-      })
-    )
-    .pipe(terser())
-    .pipe(concat('vendors.min.js'))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(paths.vendors.dest));
-
 // Copy and minify images
 const images = () =>
   gulp
@@ -135,7 +117,6 @@ function watchFiles() {
   });
 
   gulp.watch(paths.styles.src, styles);
-  gulp.watch(paths.vendors.src, vendors).on('change', browserSync.reload);
   gulp.watch(paths.favicon.src, favicon).on('change', browserSync.reload);
   gulp.watch(paths.scripts.src, scripts).on('change', browserSync.reload);
   gulp.watch(paths.images.src, images).on('change', browserSync.reload);
@@ -144,7 +125,7 @@ function watchFiles() {
 
 const build = gulp.series(
   clean,
-  gulp.parallel(styles, vendors, scripts, images, favicon),
+  gulp.parallel(styles, scripts, images, favicon),
   cacheBust
 );
 
@@ -153,7 +134,6 @@ const watch = gulp.series(build, watchFiles);
 exports.clean = clean;
 exports.styles = styles;
 exports.scripts = scripts;
-exports.vendors = vendors;
 exports.images = images;
 exports.favicon = favicon;
 exports.watch = watch;
