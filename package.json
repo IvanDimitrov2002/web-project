@@ -1,29 +1,14 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "web-project",
   "version": "1.0.0",
-  "description": "A simple boilerplate for front-end web development - built with Gulp v4",
+  "description": "A simple website for front-end web development - built with Gulp v4",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp watch",
     "build": "gulp",
     "clean": "gulp clean"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LucasWinkler/gulp-boilerplate.git"
-  },
-  "keywords": [
-    "gulp",
-    "gulp-v4",
-    "boilerplate",
-    "front-end"
-  ],
-  "author": "Lucas Winkler",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LucasWinkler/gulp-boilerplate/issues"
-  },
-  "homepage": "https://github.com/LucasWinkler/gulp-boilerplate#readme",
+  "author": "Ivan Dimitrov",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
@@ -41,9 +26,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.2.0",
-    "scss-resets": "^0.5.2"
-  },
-  "dependencies": {
+    "scss-resets": "^0.5.2",
     "browser-sync": "^2.26.7"
   }
 }

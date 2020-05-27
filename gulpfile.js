@@ -50,7 +50,7 @@ const cacheBust = () =>
 
 
 // Copies all html files
-const html =() =>
+const html = () =>
   gulp
     .src(paths.html.src)
     .pipe(plumber())
