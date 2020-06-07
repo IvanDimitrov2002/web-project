@@ -1,3 +1,6 @@
-@import './general/all';
-@import './pages/all';
+@import './general/variables';
+@import './general/functions';
+@import './general/mixins';
+@import './general/base';
+@import './pages/index';
 @import 'normalize';

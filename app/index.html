@@ -4,19 +4,45 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="description" content="Web Project" />
-		<title>Web Project</title>
+		<meta name="description" content="The Serverless SQL Solution that fits eveyone's pocket. Expand, build and connect easily without any problems" />
+		<meta name="theme-color" content="#0E1F34" />
+		<title>SQLess - The Serverless SQL Solution</title>
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="assets/css/styles.min.css?cb=123">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 	</head>
 
-	<body class="index-page">
-		<div class="container">
-			<img src="assets/images/gulp.png" alt="Gulp Logo">
-			<h1>Hello, Developer!</h1>
-			<p>Modify any source files and your browser will refresh live!</p>
-			<br /><br />
-		</div>
+	<body>
+		<header class="main-header">
+			<a href="index.html" class="header-logo">
+				<i class="material-icons">flash_on</i>
+				<h1>SQLess</h1>
+			</a>
+			<div class="header-drawer" onClick="toggleDrawer()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="header-navbar">
+				<div class="navbar-dropdown" onClick="toggleDropdown()">
+					<a class="dropdown-button navbar-button" href="javascript:void(0)">Product<i class="material-icons">expand_more</i></a>
+					<ul class="dropdown-list">
+						<li><i class="material-icons">code</i><a href="javascript:void(0)" class="navbar-button">SQLess API<p>Get set up in minutes running your favorite backend language</p></a></li>
+						<li><i class="material-icons">done_all</i><a href="javascript:void(0)" class="navbar-button">Database Support<p>We support MySQL, MariaDB, PostgreSQL and SQL Server</p></a></li>
+						<li><i class="material-icons">bar_chart</i><a href="javascript:void(0)" class="navbar-button">Excellent tracking<p>See detailed logs of every request so you can ensure everything is alright</p></a></li>
+						<li><i class="material-icons">dashboard</i><a href="javascript:void(0)" class="navbar-button">Dashboard<p>Manage all your databases in one place - easy, fast and secure</p></a></li>
+					</ul>
+				</div>
+				<a class="navbar-button" href="javascript:void(0)">Pricing</a>
+				<a class="navbar-button" href="javascript:void(0)">Docs</a>
+				<a class="navbar-button" href="javascript:void(0)">Contacts</a>
+				<span class="separator"></span>
+				<a class="navbar-button signin" href="javascript:void(0)">Sign In</a>
+				<a class="navbar-button primary-button signup" href="javascript:void(0)">Sign Up</a>
+			</nav>
+		</header>
+
 
 		<script async defer src="assets/js/app.min.js?cb=123"></script>
 	</body>

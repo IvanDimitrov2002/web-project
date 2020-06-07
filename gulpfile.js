@@ -56,7 +56,7 @@ const html = () =>
     .pipe(plumber())
     .pipe(gulp.dest(paths.html.dest));
 
-// Convert scss to css, auto-prefix and rename into styles.min.css
+// Convert scss to css, auto-prefix, minify and rename into styles.min.css
 const styles = () =>
   gulp
     .src(paths.styles.src)
