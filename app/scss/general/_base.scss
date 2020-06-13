@@ -16,6 +16,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	scroll-behavior: smooth;
 }
+
+.noscroll {
+	overflow: hidden;
+}
 	 
 a {
 	text-decoration: none;

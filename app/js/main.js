@@ -4,6 +4,7 @@ const toggleDrawer = () => {
 
     drawerClassList.toggle('opened')
     navClassList.toggle('opened')
+    document.body.classList.toggle('noscroll')
 }
 
 const toggleDropdown = () => {
