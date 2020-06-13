@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="529px" height="272px" viewBox="0 0 529 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-/-desktop" transform="translate(-790.000000, -893.000000)">
+            <g id="chart" transform="translate(791.000000, 894.000000)">
+                <g>
+                    <rect id="Rectangle" stroke="#D6D6D6" fill="#FFFFFF" stroke-linecap="square" x="0" y="0" width="527" height="270" rx="6"></rect>
+                    <text id="today,-7:00-am---8:0" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#949494">
+                        <tspan x="381" y="60">today, 7:00 am - 8:00 am</tspan>
+                    </text>
+                    <text id="api-requests" font-family="SoleilLt, Soleil" font-size="20" font-weight="300" line-spacing="20" fill="#000000">
+                        <tspan x="15" y="49">api requests</tspan>
+                    </text>
+                    <text id="75,002,822" font-family="Soleil" font-size="12" font-weight="normal" line-spacing="16" fill="#000000">
+                        <tspan x="437" y="44">75,002,822</tspan>
+                    </text>
+                    <line x1="492.629753" y1="232.492452" x2="35.4334601" y2="232.670139" id="Line-2" stroke="#D6D6D6" stroke-linecap="square"></line>
+                    <text id="0" font-family="Soleil" font-size="10" font-weight="normal" line-spacing="12" fill="#000000">
+                        <tspan x="22" y="234">0</tspan>
+                    </text>
+                    <text id="1-b" font-family="Soleil" font-size="10" font-weight="normal" line-spacing="12" fill="#000000">
+                        <tspan x="15" y="114">1 b</tspan>
+                    </text>
+                    <text id="1-m" font-family="Soleil" font-size="10" font-weight="normal" line-spacing="12" fill="#000000">
+                        <tspan x="12" y="174">1 m</tspan>
+                    </text>
+                    <text id="3-pm" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="71" y="250">3 pm</tspan>
+                    </text>
+                    <text id="7-pm" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="144.79962" y="250">7 pm</tspan>
+                    </text>
+                    <text id="11-pm" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="218.59924" y="250">11 pm</tspan>
+                    </text>
+                    <text id="3-am" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="294.402662" y="250">3 am</tspan>
+                    </text>
+                    <text id="7-am" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="368.202281" y="250">7 am</tspan>
+                    </text>
+                    <text id="11-am" font-family="SoleilLt, Soleil" font-size="10" font-weight="300" line-spacing="12" fill="#000000">
+                        <tspan x="441" y="250">11 am</tspan>
+                    </text>
+                    <line x1="35" y1="108.933498" x2="35" y2="232.309557" id="Line-2" stroke="#D6D6D6" stroke-linecap="square"></line>
+                    <path d="M63,217 L65.0190114,217 C67.2281504,217 69.0190114,218.790861 69.0190114,221 L69.0190114,233 L69.0190114,233 L59,233 L59,221 C59,218.790861 60.790861,217 63,217 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M81,194 L83.0190114,194 C85.2281504,194 87.0190114,195.790861 87.0190114,198 L87.0190114,233 L87.0190114,233 L77,233 L77,198 C77,195.790861 78.790861,194 81,194 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M100,177 L102.019011,177 C104.22815,177 106.019011,178.790861 106.019011,181 L106.019011,233 L106.019011,233 L96,233 L96,181 C96,178.790861 97.790861,177 100,177 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M118,168 L120.019011,168 C122.22815,168 124.019011,169.790861 124.019011,172 L124.019011,233 L124.019011,233 L114,233 L114,172 C114,169.790861 115.790861,168 118,168 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M137,194 L139.019011,194 C141.22815,194 143.019011,195.790861 143.019011,198 L143.019011,233 L143.019011,233 L133,233 L133,198 C133,195.790861 134.790861,194 137,194 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M155,168 L157.019011,168 C159.22815,168 161.019011,169.790861 161.019011,172 L161.019011,233 L161.019011,233 L151,233 L151,172 C151,169.790861 152.790861,168 155,168 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M174,158 L176.019011,158 C178.22815,158 180.019011,159.790861 180.019011,162 L180.019011,233 L180.019011,233 L170,233 L170,162 C170,159.790861 171.790861,158 174,158 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M192,168 L194.019011,168 C196.22815,168 198.019011,169.790861 198.019011,172 L198.019011,233 L198.019011,233 L188,233 L188,172 C188,169.790861 189.790861,168 192,168 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M210,155 L212.019011,155 C214.22815,155 216.019011,156.790861 216.019011,159 L216.019011,233 L216.019011,233 L206,233 L206,159 C206,156.790861 207.790861,155 210,155 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M229,147 L231.019011,147 C233.22815,147 235.019011,148.790861 235.019011,151 L235.019011,233 L235.019011,233 L225,233 L225,151 C225,148.790861 226.790861,147 229,147 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M247,152 L249.019011,152 C251.22815,152 253.019011,153.790861 253.019011,156 L253.019011,233 L253.019011,233 L243,233 L243,156 C243,153.790861 244.790861,152 247,152 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M266,136 L268.019011,136 C270.22815,136 272.019011,137.790861 272.019011,140 L272.019011,233 L272.019011,233 L262,233 L262,140 C262,137.790861 263.790861,136 266,136 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M284,168 L286.019011,168 C288.22815,168 290.019011,169.790861 290.019011,172 L290.019011,233 L290.019011,233 L280,233 L280,172 C280,169.790861 281.790861,168 284,168 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M303,136 L305.019011,136 C307.22815,136 309.019011,137.790861 309.019011,140 L309.019011,233 L309.019011,233 L299,233 L299,140 C299,137.790861 300.790861,136 303,136 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M321,158 L323.019011,158 C325.22815,158 327.019011,159.790861 327.019011,162 L327.019011,233 L327.019011,233 L317,233 L317,162 C317,159.790861 318.790861,158 321,158 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M340,194 L342.019011,194 C344.22815,194 346.019011,195.790861 346.019011,198 L346.019011,233 L346.019011,233 L336,233 L336,198 C336,195.790861 337.790861,194 340,194 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M358,177 L360.019011,177 C362.22815,177 364.019011,178.790861 364.019011,181 L364.019011,233 L364.019011,233 L354,233 L354,181 C354,178.790861 355.790861,177 358,177 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M376,158 L378.019011,158 C380.22815,158 382.019011,159.790861 382.019011,162 L382.019011,233 L382.019011,233 L372,233 L372,162 C372,159.790861 373.790861,158 376,158 Z" id="Rectangle" fill="#ABAAAA"></path>
+                    <path d="M395,115 L397.019011,115 C399.22815,115 401.019011,116.790861 401.019011,119 L401.019011,233 L401.019011,233 L391,233 L391,119 C391,116.790861 392.790861,115 395,115 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M413,205 L415.019011,205 C417.22815,205 419.019011,206.790861 419.019011,209 L419.019011,233 L419.019011,233 L409,233 L409,209 C409,206.790861 410.790861,205 413,205 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M432,192 L434.019011,192 C436.22815,192 438.019011,193.790861 438.019011,196 L438.019011,233 L438.019011,233 L428,233 L428,196 C428,193.790861 429.790861,192 432,192 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M450,184 L452.019011,184 C454.22815,184 456.019011,185.790861 456.019011,188 L456.019011,233 L456.019011,233 L446,233 L446,188 C446,185.790861 447.790861,184 450,184 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M469,180 L471.019011,180 C473.22815,180 475.019011,181.790861 475.019011,184 L475.019011,233 L475.019011,233 L465,233 L465,184 C465,181.790861 466.790861,180 469,180 Z" id="Rectangle" fill="#D6D6D6"></path>
+                    <path d="M487,194 L489.019011,194 C491.22815,194 493.019011,195.790861 493.019011,198 L493.019011,233 L493.019011,233 L483,233 L483,198 C483,195.790861 484.790861,194 487,194 Z" id="Rectangle" fill="#D6D6D6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
