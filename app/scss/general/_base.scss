@@ -151,6 +151,7 @@ a {
 		flex-direction: row;
 		align-items: center;
 		transition: .3s;
+		max-height: calc(100vh - 85px);
 
 		& > .navbar-dropdown,
 		& > .navbar-button {
@@ -365,6 +366,7 @@ a {
 			position: absolute;
 			width: 100%;
 			pointer-events: none;
+			overflow-y: auto;
 
 			&.opened {
 				visibility: visible;
@@ -401,12 +403,14 @@ a {
 					max-height: 0vh;
 					margin: 0;
 					visibility: hidden;
+					transform: scaleY(0);
 					opacity: 0;
 
 					&.opened {
 						max-height: 100vh;
 						margin-top: 15px;
 						visibility: visible;
+						transform: scaleY(1);
 						opacity: 1;
 					}
 
@@ -420,7 +424,7 @@ a {
 						}
 
 						&:hover {
-							background-color: transparent;
+							background-color: #112640;
 	
 							a {
 								p {
