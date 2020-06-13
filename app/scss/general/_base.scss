@@ -126,9 +126,31 @@ a {
 			position: relative;
 
 			.dropdown-button {
+
 				i {
 					vertical-align: middle;
 					margin-left: 5px;
+				}
+			}
+
+			&.stacked {
+				width: 100%;
+
+				.dropdown-button {
+					width: 100%;
+					
+					i {
+						transform: rotate(-90deg);
+						margin-top: -3px;
+
+						float: right;
+					}
+				}
+
+				.dropdown-list {
+					left: 400px;
+					top: -25px;
+
 				}
 			}
 
@@ -154,10 +176,6 @@ a {
 						padding-top: 20px;
 					}
 
-					&:last-child {
-						padding-bottom: 20px;
-					}
-
 					i {
 						color: $primary-color;
 						margin-right: 12px;
@@ -165,7 +183,6 @@ a {
 
 					a {
 						font-weight: 600;
-						width: 100%;
 						display: inline-block;
 						color: $dark-color;
 						width: 350px;
@@ -253,6 +270,9 @@ a {
 			}
 
 			.navbar-dropdown {
+				width: 100%;
+
+
 				&:hover > .dropdown-list,
 				.dropdown-list:hover {
 					visibility: hidden;
@@ -296,7 +316,7 @@ a {
 				}
 
 				.dropdown-button {
-
+					
 					i {
 						float: right;
 						margin-top: -5px;

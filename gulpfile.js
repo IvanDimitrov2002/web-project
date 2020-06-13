@@ -108,7 +108,7 @@ const favicon = () =>
     .pipe(gulp.dest(paths.favicon.dest));
 
 // Watches all .scss, .js and .html changes and executes the corresponding task
-function watchFiles() {
+const watchFiles = () => {
   browserSync.init({
     server: {
       baseDir: './build'
