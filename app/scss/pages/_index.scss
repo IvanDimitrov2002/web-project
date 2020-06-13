@@ -1,0 +1,73 @@
+.main {
+    
+    .main-herosection {
+        padding: 60px 15px 50px;
+        z-index: 0;
+        background-color: $dark-color;
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .main-image {
+            position: absolute;
+            font-size: 750px;
+            transform: rotate(15deg);
+            top: -120px;
+            right: 100px;
+            z-index: -1;
+            user-select: none;
+            pointer-events: none;
+            display: inline-block;
+            color: adjust-hue($primary-color, -5);
+            opacity: .2;
+        }
+
+        .herosection-title {
+            font-size: 30px;
+            font-family: $logo-font;
+        }
+
+        .herosection-text {
+            text-align: center;
+            line-height: 1.6;
+            margin-top: 20px;
+            font-size: 17px;
+            color: darken(white, 20);
+        }
+
+        .herosection-button {
+            margin-top: 50px;
+            font-size: 20px;
+            padding: 15px 40px;
+        }
+
+        .herosection-stats {
+            margin-top: 115px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .stats-text {
+                margin: 20px 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                
+                span:first-child {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                
+                span:last-child {
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}

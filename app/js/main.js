@@ -1,7 +1,6 @@
 const toggleDrawer = () => {
     const drawerClassList = event.target.classList
     const navClassList = document.querySelectorAll('.header-navbar')[0].classList
-    console.log(event.target)
 
     drawerClassList.toggle('opened')
     navClassList.toggle('opened')

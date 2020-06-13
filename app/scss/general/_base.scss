@@ -34,13 +34,40 @@ a {
 	border-radius: 10px;
 	color: #e5e7eb;
 	background-color: $primary-color;
+	border: 1px solid transparent;
+	cursor: pointer;
+	outline: none;
+	transition: .2s;
 
 	&:hover {
+		color: white;
 		background-color: darken($primary-color, 2);
 	}
 }
 
-.main-header {
+.logo,
+.header-logo,
+.footer-logo {
+	display: flex;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+
+	h1 {
+		font-weight: bold;
+		font-size: 27px;
+		font-family: $logo-font;
+		margin: 0;
+	}
+
+	i {
+		margin: 0 5px 4px 0;
+		color: adjust-hue($primary-color, -5);
+	}
+}
+
+.header {
+	z-index: 1;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -135,6 +162,7 @@ a {
 
 			&.stacked {
 				width: 100%;
+				
 
 				.dropdown-button {
 					width: 100%;
@@ -149,6 +177,7 @@ a {
 
 				.dropdown-list {
 					left: 400px;
+					right: auto;
 					top: -25px;
 
 				}
@@ -161,12 +190,13 @@ a {
 				border-radius: 5px;
 				background-color: white;
 				position: absolute;
+				right: -100px;
 				list-style-type: none;
 				transition: .2s;
 				box-shadow: rgba(10, 22, 70, 0.1) 0px 1px 1px 0px, rgba(10, 22, 70, 0.06) 0px 0px 1px 0px, rgba(5, 15, 54, 0.08) 0px 28px 70px -7px;
 
 				li {
-					padding: 15px 20px;
+					padding: 20px 20px 15px;
 					display: flex;
 					align-items: center;
 					border-left: 2px solid transparent;
@@ -226,8 +256,77 @@ a {
 	}
 }
 
+.footer {
+	background-color: #f5f8fa;
+
+	.footer-upper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		
+		.upper-element {
+			padding: 40px 20px 20px;
+
+
+			span {
+				font-size: 17px;
+				font-weight: 600;
+				cursor: pointer;
+			}
+
+			ul {
+				list-style-type: none;
+				margin-top: 25px;
+
+				li {
+					margin: 15px 0;	
+					cursor: pointer;
+					color: transparentize($dark-color, .3);
+					transition: .2s;
+
+					&:hover {
+						color: transparentize($dark-color, .1);
+					}
+				}
+			}
+		}
+	}
+
+	.footer-lower {
+		padding: 40px 20px 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+
+		.footer-logo {
+			color: $dark-color;
+		}
+
+		.lower-content {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+
+			.content-social {
+				margin-right: 30px;
+				
+				* {
+					margin: 0 2px;
+					cursor: pointer;
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}
+
 @media only screen and (max-width: 860px) {
-	.main-header {
+
+	.header {
 		justify-content: space-between;
 
 		.header-logo {
@@ -343,5 +442,11 @@ a {
 			}
 		}
 
-	}	
+	}
+
+	.footer {
+		.footer-lower {
+			flex-direction: column;
+		}
+	}
 }
