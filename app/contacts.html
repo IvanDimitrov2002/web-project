@@ -53,54 +53,39 @@
 				<a class="navbar-button signin" href="javascript:void(0)">Sign In</a>
 				<a class="navbar-button primary-button signup" href="javascript:void(0)">Sign Up</a>
 			</nav>
-		</header>
-		<main class="index-main">
-			<div class="main-herosection">
-				<i class="main-image material-icons">flash_on</i>
-				<h2 class="herosection-title">SQLess, simplified</h2>
-				<p class="herosection-text">The SQLess platform gives you everything you need to develop, deploy, monitor and secure your serverless SQL application.</p>
-				<button class="herosection-button primary-button">Try Pro for free</button>
-				<div class="herosection-stats">
-					<div class="stats-text">
-						<span>15,817,623</span>
-						<span>Downloads</span>
-					</div>
-					<div class="stats-text">
-						<span>767,156</span>
-						<span>Weekly Deployments</span>
-					</div>
-					<div class="stats-text">
-						<span>215</span>
-						<span>Integrations</span>
-					</div>
-					<div class="stats-text">
-						<span>34,800</span>
-						<span>GitHub Stars</span>
-					</div>
-				</div>
-			</div>
-			<div class="main-plansection">
-				<div class="plansection-element">
-					<p class="element-main-text"><i class="element-icon material-icons">flash_on</i><br>SQLess <br><span>Platform</span><br> Free</p>
-					<p class="element-secondary-text">Easily connect to your database with our CLI</p>
-					<img class="element-image" src="assets/images/config.svg" alt="free-plan">
-					<a class="element-link" href="">Learn about SQLess Free</a>
-					<button class="element-button secondary-button">Get started</button>
-				</div>
-				<div class="plansection-element">
-					<p class="element-main-text"><i class="element-icon material-icons">flash_on</i><br>SQLess <br><span>Platform</span><br> Pro</p>
-					<p class="element-secondary-text">Use blazing fast servers without any hassle</p>
-					<img class="element-image" src="assets/images/stats.svg" alt="pro-plan">
-					<a class="element-link" href="">Learn about SQLess Pro</a>
-					<button class="element-button primary-button">Try Pro for free</button>
-				</div>
-			</div>
-			<div class="main-textsection">
-				<i class="textsection-icon material-icons">flash_on</i>
-				<h3 class="textsection-header">The future is *Less</h3>
-				<p class="textsection-text">Software is eating the world. Unfortunately, most businesses still can't deliver software successfully, much less do so at the pace needed to stay competitive. For those who wish to keep up, let alone lead, software delivery & operation must be radically simplified.</p>
-				<p class="textsection-text">This is what the SQLess Platform offers — It's built on next-generation public cloud services that are easy to scale and charge only when used. When scale, capacity planning & cost management are automated, the result is universal database that's easier to maintain and connect to your apps, website and other platforms.</p>
-			</div>
+        </header>
+        <main class="main-contacts">
+			<div class="contacts-section">
+                <div class="section-text">
+                    <div class="text">
+                        <i class="material-icons">flash_on</i>
+                        <p>SQLess<br><span>Platform</span><br>Pro</p>
+                    </div>
+                    <p class="secondary-text">Fill out the form to purchase SQLess Pro or coordinate a 1-on-1 demo where we can answer your questions.</p>
+                </div>
+                <div class="section-form">
+                    <h2>Contact Us</h2>
+                    <form id="contacts-form" class="form" onSubmit="event.preventDefault()">
+                        <label >First name</label>
+                        <input class="primary-input" name="firstName" type="text">
+                        <label >Last name</label>
+                        <input  class="primary-input" name="lastName" type="text">
+                        <label >E-mail</label>
+                        <input  class="primary-input" name="email" type="email">
+                        <label >Tell us more</label>
+                        <textarea class="form-textarea primary-textarea" name="comment" form="contacts-form"></textarea>
+                        <button class="primary-button">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="info-section">
+                <h3>Monitoring & Debugging</h3>
+                <p>Your single pane of glass for monitoring application peformance and debugging its issues.</p>
+                <h3>CI/CD</h3>
+                <p>Built-in CI/CD, designed around serverless architectures.</p>
+                <h3>Collaboration</h3>
+                <p>Invite your team members and coordinate development, deployments and more.</p>
+            </div>
 		</main>
 		<footer class="footer">
 			<div class="footer-upper">

@@ -120,7 +120,7 @@ const watchFiles = () => {
   gulp.watch(paths.favicon.src, favicon).on('change', browserSync.reload);
   gulp.watch(paths.scripts.src, scripts).on('change', browserSync.reload);
   gulp.watch(paths.images.src, images).on('change', browserSync.reload);
-  gulp.watch('./app/*.html', html).on('change', browserSync.reload);
+  gulp.watch(paths.html.src, html).on('change', browserSync.reload);
 }
 
 const build = gulp.series(

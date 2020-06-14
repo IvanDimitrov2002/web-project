@@ -66,6 +66,24 @@ a {
 	}
 }
 
+.primary-input, .primary-textarea {
+	border-radius: 5px;
+	background-color: darken(#f5f8fa, 1);
+	border: 1.3px solid transparentize($dark-color, .7);
+	outline: none;
+	padding: 10px 15px;
+	transition: .2s;
+	
+	&:hover,
+	&:focus {
+		border: 1.3px solid lighten($dark-color, 40);
+	}
+}
+
+.primary-textarea {
+	line-height: 1.5;
+}
+
 .logo,
 .header-logo,
 .footer-logo {

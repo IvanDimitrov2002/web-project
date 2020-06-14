@@ -1,6 +1,6 @@
-# Web Project
+# SQLess
 
-To be edited...
+SQLess - The Serverless SQL Solution
 
 ## Features
 
@@ -32,6 +32,9 @@ Follow these steps in order to get the website up and running locally on your ma
 - `gulp scripts` to run the script tasks
 - `gulp images` to run the image tasks
 - `gulp favicon` to run the favicon tasks
+
+## Hosted
+- The project is hosted on Vercel. The link is in the repository's description.
 
 ## File Structure
 
@@ -67,6 +70,3 @@ Follow these steps in order to get the website up and running locally on your ma
     │
     └── favicon.ico
 ```
-
-## Hosted
-- The project is hosted on Vercel. The link is in the repository's description.
