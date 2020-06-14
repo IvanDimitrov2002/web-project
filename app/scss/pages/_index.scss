@@ -114,7 +114,7 @@
                 font-weight: 500;
                 color: $primary-color;
                 font-size: 17px;
-                transition: .2s;
+                transition: color .2s;
 
                 &:hover {
                     color: darken($primary-color, 8);

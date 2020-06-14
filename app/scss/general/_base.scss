@@ -41,7 +41,7 @@ a {
 	border: 1px solid transparent;
 	cursor: pointer;
 	outline: none;
-	transition: .2s;
+	transition: color .2s, background-color .2s;
 
 	&:hover {
 		color: white;
@@ -57,7 +57,7 @@ a {
 	border: 1px solid $primary-color;
 	cursor: pointer;
 	outline: none;
-	transition: .2s;
+	transition: color .2s, border .2s;
 
 	&:hover {
 		color: darken($primary-color, 15);
@@ -72,7 +72,7 @@ a {
 	border: 1.3px solid transparentize($dark-color, .7);
 	outline: none;
 	padding: 10px 15px;
-	transition: .2s;
+	transition: border .2s;
 	
 	&:hover,
 	&:focus {
@@ -129,7 +129,7 @@ a {
 			background-color: white;
 			margin: 2.5px 0;
 			border-radius: 5px;
-			transition: .3s;
+			transition: transform .3s, opacity .3s;
 			pointer-events: none;
 		}
 
@@ -182,7 +182,7 @@ a {
 
 		.navbar-button {
 			color: $text-color;
-			transition: .2s;
+			transition: color .2s;
 			
 			&:hover {
 				color:white;
@@ -240,7 +240,7 @@ a {
 					display: flex;
 					align-items: center;
 					border-left: 2px solid transparent;
-					transition: .2s;
+					transition: border-left .2s, background-color .2s;
 
 					&:first-child {
 						padding-top: 20px;
@@ -261,7 +261,7 @@ a {
 							font-weight: 400;
 							margin-top: 5px;
 							color: transparentize($dark-color, .3);
-							transition: .2s;
+							transition: color .2s;
 
 							&:hover {
 								color: $dark-color;
@@ -323,7 +323,7 @@ a {
 					margin: 15px 0;	
 					cursor: pointer;
 					color: transparentize($dark-color, .3);
-					transition: .2s;
+					transition: color .2s;
 
 					&:hover {
 						color: transparentize($dark-color, .1);
