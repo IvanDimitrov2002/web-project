@@ -1,6 +1,10 @@
 # SQLess
 
-SQLess - The Serverless SQL Solution
+SQLess - The Serverless SQL Solution. Setup your database on the cloud. 
+
+Проектът представялва сайт, в който можеш да deploy-неш SQL база данни на cloud физически сървър предоставен от платформата(подобно на Goole Cloud SQL, Azure SQL, Amazon RDS...). Идеята е развитието на serverless development-а, при който липсва back-end сървър (Node.js, Django...), а операциите, които все пак изискват наличитето на такъв, се изпълняват чрез lambda функции. Проблемът с реалационните бази данни като SQL е, че те трябва да имат back-end сървър, на когото да работят.
+
+![alt text](https://i.imgur.com/w1OCSwQ.png)
 
 ## Features
 
