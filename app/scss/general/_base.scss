@@ -230,7 +230,7 @@ a {
 				border-radius: 5px;
 				background-color: white;
 				position: absolute;
-				right: -100px;
+				right: -130px;
 				list-style-type: none;
 				transition: .2s;
 				box-shadow: rgba(10, 22, 70, 0.1) 0px 1px 1px 0px, rgba(10, 22, 70, 0.06) 0px 0px 1px 0px, rgba(5, 15, 54, 0.08) 0px 28px 70px -7px;
@@ -364,7 +364,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 980px) {
 
 	.header {
 		justify-content: space-between;
