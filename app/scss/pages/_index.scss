@@ -1,160 +1,160 @@
 .index-main {
-    
-    .main-herosection {
-        padding: 60px 15px 50px;
-        z-index: 0;
-        background-color: $dark-color;
-        color: white;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-        
-        .main-image {
-            position: absolute;
-            font-size: 750px;
-            transform: rotate(15deg);
-            top: -120px;
-            right: 100px;
-            z-index: -1;
-            user-select: none;
-            pointer-events: none;
-            display: inline-block;
-            color: adjust-hue($primary-color, -5);
-            opacity: .2;
-        }
+	
+	.main-herosection {
+		padding: 60px 15px 50px;
+		z-index: 0;
+		background-color: $dark-color;
+		color: white;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: hidden;
+		
+		.main-image {
+			position: absolute;
+			font-size: 750px;
+			transform: rotate(15deg);
+			top: -120px;
+			right: 100px;
+			z-index: -1;
+			user-select: none;
+			pointer-events: none;
+			display: inline-block;
+			color: adjust-hue($primary-color, -5);
+			opacity: .2;
+		}
 
-        .herosection-title {
-            font-size: 30px;
-            font-family: $logo-font;
-        }
+		.herosection-title {
+			font-size: 30px;
+			font-family: $logo-font;
+		}
 
-        .herosection-text {
-            text-align: center;
-            line-height: 1.6;
-            margin-top: 20px;
-            font-size: 17px;
-            color: darken(white, 20);
-        }
+		.herosection-text {
+			text-align: center;
+			line-height: 1.6;
+			margin-top: 20px;
+			font-size: 17px;
+			color: darken(white, 20);
+		}
 
-        .herosection-button {
-            margin-top: 50px;
-            font-size: 20px;
-            padding: 15px 40px;
-        }
+		.herosection-button {
+			margin-top: 50px;
+			font-size: 20px;
+			padding: 15px 40px;
+		}
 
-        .herosection-stats {
-            margin-top: 115px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
+		.herosection-stats {
+			margin-top: 115px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
 
-            .stats-text {
-                margin: 20px 50px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                
-                span:first-child {
-                    font-size: 20px;
-                    font-weight: bold;
-                }
-                
-                span:last-child {
-                    font-weight: 500;
-                    font-size: 14px;
-                    margin-top: 8px;
-                }
-            }
-        }
-    }
+			.stats-text {
+				margin: 20px 50px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				
+				span:first-child {
+					font-size: 20px;
+					font-weight: bold;
+				}
+				
+				span:last-child {
+					font-weight: 500;
+					font-size: 14px;
+					margin-top: 8px;
+				}
+			}
+		}
+	}
 
-    .main-plansection {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+	.main-plansection {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 
-        .plansection-element {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin: 30px 90px;
+		.plansection-element {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin: 30px 90px;
 
-            * {
-                margin: 10px 0;
-            }
+			* {
+				margin: 10px 0;
+			}
 
-            .element-icon {
-                color: adjust-hue($primary-color, -5);
-                font-size: 50px;
-            }
+			.element-icon {
+				color: adjust-hue($primary-color, -5);
+				font-size: 50px;
+			}
 
-            .element-main-text {
-                font-family: $logo-font;
-                font-size: 20px;
+			.element-main-text {
+				font-family: $logo-font;
+				font-size: 20px;
 
-                span {
-                    font-size: 22px;
-                    font-weight: bold;
-                }
-            }
+				span {
+					font-size: 22px;
+					font-weight: bold;
+				}
+			}
 
-            .element-image {
-                padding: 0 20px;
-                object-fit: contain;
-                max-width: 450px;
-                width: 100%;
-            }
+			.element-image {
+				padding: 0 20px;
+				object-fit: contain;
+				max-width: 450px;
+				width: 100%;
+			}
 
-            .element-link {
-                font-weight: 500;
-                color: $primary-color;
-                font-size: 17px;
-                transition: color .2s;
+			.element-link {
+				font-weight: 500;
+				color: $primary-color;
+				font-size: 17px;
+				transition: color .2s;
 
-                &:hover {
-                    color: darken($primary-color, 8);
-                }
-            }
-        }
-    }
+				&:hover {
+					color: darken($primary-color, 8);
+				}
+			}
+		}
+	}
 
-    .main-textsection {
-        padding: 80px 20px 100px;
-        text-align: center;
-        
-        .textsection-icon {
-            color: adjust-hue($primary-color, -5);
-            font-size: 50px;
-        }
-        
-        .textsection-header {
-            font-size: 28px;
-        }
-        
-        .textsection-text {
-            text-align: left;
-            line-height: 1.6;
-            font-size: 18px;
-            margin:0px auto;
-            max-width: 1040px;
-            margin-top: 30px;
-        }
-    }
+	.main-textsection {
+		padding: 80px 20px 100px;
+		text-align: center;
+		
+		.textsection-icon {
+			color: adjust-hue($primary-color, -5);
+			font-size: 50px;
+		}
+		
+		.textsection-header {
+			font-size: 28px;
+		}
+		
+		.textsection-text {
+			text-align: left;
+			line-height: 1.6;
+			font-size: 18px;
+			margin:0px auto;
+			max-width: 1040px;
+			margin-top: 30px;
+		}
+	}
 }
 
 @media only screen and (max-width:900px){
-    .index-main {
+	.index-main {
 
-        .main-plansection {
-            flex-direction: column;
-            .plansection-element {
-                margin: 20px 10px;
-            }
-        }
-    }
+		.main-plansection {
+			flex-direction: column;
+			.plansection-element {
+				margin: 20px 10px;
+			}
+		}
+	}
 }

@@ -1,172 +1,172 @@
 .main-pricing {
-    background-color: #f5f8fa;
-    
-    .pricing-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	background-color: #f5f8fa;
+	
+	.pricing-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-        h2 {
-            margin-top: 60px;
-            font-size: 26px;
-            text-align: center;
-        }
+		h2 {
+			margin-top: 60px;
+			font-size: 26px;
+			text-align: center;
+		}
 
-        .text-description {
-            margin-top: 30px;
-            max-width: 750px;
-            font-size: 17.5px;
-            text-align: center;
-            line-height: 1.6;
-            padding: 0 20px;
-        }
+		.text-description {
+			margin-top: 30px;
+			max-width: 750px;
+			font-size: 17.5px;
+			text-align: center;
+			line-height: 1.6;
+			padding: 0 20px;
+		}
 
-        i {
-            margin-top: 50px;
-            font-size: 100px;
-            color: adjust-hue($primary-color, -5);
-        }
+		i {
+			margin-top: 50px;
+			font-size: 100px;
+			color: adjust-hue($primary-color, -5);
+		}
 
-        .text-name {
-            font-family: $logo-font;
-            font-size: 25px;
-            text-align: center;
-            
-            span {
-                font-size: 30px;
-                font-weight: 500;
-            }
-        }
-        
-    }
+		.text-name {
+			font-family: $logo-font;
+			font-size: 25px;
+			text-align: center;
+			
+			span {
+				font-size: 30px;
+				font-weight: 500;
+			}
+		}
+		
+	}
 
-    .pricing-cards {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+	.pricing-cards {
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
 
-        .pricing-card {
-            margin: 50px 15px 0;
-            background-color: white;
-            display: flex;
-            padding: 40px;
-            flex-direction: column;
-            align-items: center;
-            border-radius: 5px;
-            max-width: 400px;
-            width: 100%;
-            box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
-            border: 1px solid transparentize($dark-color, .9);
+		.pricing-card {
+			margin: 50px 15px 0;
+			background-color: white;
+			display: flex;
+			padding: 40px;
+			flex-direction: column;
+			align-items: center;
+			border-radius: 5px;
+			max-width: 400px;
+			width: 100%;
+			box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
+			border: 1px solid transparentize($dark-color, .9);
 
-            .plan-name {
-                color: adjust-hue($primary-color, -5);
-                font-size: 30px;
-                font-weight: 600;
-                
-            }
+			.plan-name {
+				color: adjust-hue($primary-color, -5);
+				font-size: 30px;
+				font-weight: 600;
+				
+			}
 
-            .plan-cost {
-                margin-top: 10px;
-                font-size: 40px;
-                font-weight: bold;
+			.plan-cost {
+				margin-top: 10px;
+				font-size: 40px;
+				font-weight: bold;
 
-                sub {
-                    font-weight: 500;
-                    font-size: 20px;
-                }
-            }
+				sub {
+					font-weight: 500;
+					font-size: 20px;
+				}
+			}
 
-            .plan-description {
-                margin-top: 20px;
-                text-align: center;
-                max-width: 300px;
-                line-height: 1.6;
-            }
+			.plan-description {
+				margin-top: 20px;
+				text-align: center;
+				max-width: 300px;
+				line-height: 1.6;
+			}
 
-            button {
-                margin: 20px 0;
-                padding: 15px 60px;
-                font-weight: 500;
-            }
+			button {
+				margin: 20px 0;
+				padding: 15px 60px;
+				font-weight: 500;
+			}
 
-            .plan-feature {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 20px 0;
-                width: 100%;
-                border-bottom: .5px solid rgba(0, 0, 0, .2);
-                text-align: center;
+			.plan-feature {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 20px 0;
+				width: 100%;
+				border-bottom: .5px solid rgba(0, 0, 0, .2);
+				text-align: center;
 
-                &:last-child {
-                    border-bottom: none;
-                    padding-bottom: 0;
-                }
+				&:last-child {
+					border-bottom: none;
+					padding-bottom: 0;
+				}
 
-                .feature-name {
-                    font-size: 17px;
-                    font-weight: bold;
-                    margin-bottom: 10px;
-                }
-            }
-        }
-    }
+				.feature-name {
+					font-size: 17px;
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
 
-    .pricing-addons {
-        margin-top: 100px;
-        padding-bottom: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.pricing-addons {
+		margin-top: 100px;
+		padding-bottom: 70px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-        .addons-text {
-            text-align: center;
+		.addons-text {
+			text-align: center;
 
-            h4 {
-                font-size: 30px;;
-            }
+			h4 {
+				font-size: 30px;;
+			}
 
-            p {
-                margin-top: 25px;
-                font-size: 17px;
-            }
-        }
+			p {
+				margin-top: 25px;
+				font-size: 17px;
+			}
+		}
 
-        .addons-cards {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            
-            .addons-card {
-                box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
-                border: 1px solid transparentize($dark-color, .9);
-                background-color: white;
-                margin: 65px 20px 0;
-                padding: 40px;
-                border-radius: 5px;
-                max-width: 450px;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
+		.addons-cards {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			
+			.addons-card {
+				box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
+				border: 1px solid transparentize($dark-color, .9);
+				background-color: white;
+				margin: 65px 20px 0;
+				padding: 40px;
+				border-radius: 5px;
+				max-width: 450px;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
 
-                .card-headline {
-                    font-size: 25px;
-                    font-weight: bold;
-                }
+				.card-headline {
+					font-size: 25px;
+					font-weight: bold;
+				}
 
-                .card-text {
-                    margin-top: 40px;
-                    line-height: 1.6;
-                }
+				.card-text {
+					margin-top: 40px;
+					line-height: 1.6;
+				}
 
-                button {
-                    margin-top: 40px;
-                }
-            }
-        }
-    }
+				button {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
 }

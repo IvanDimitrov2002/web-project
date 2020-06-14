@@ -1,152 +1,152 @@
 .main-contacts {
-    
-    .contacts-section {
-        display: flex;
-        padding: 60px 15px 70px;
-        background-color: $dark-color;
-        color: white;
-        position: relative;
+	
+	.contacts-section {
+		display: flex;
+		padding: 60px 15px 70px;
+		background-color: $dark-color;
+		color: white;
+		position: relative;
 
-        .section-text {
-            margin-left: 300px;
+		.section-text {
+			margin-left: 300px;
 
-            .text {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                font-size: 30px;
+			.text {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				font-size: 30px;
 
-                p {
-                    font-family: $logo-font;
-                
-                    span {
-                        font-size: 35px;
-                    }
-                }
+				p {
+					font-family: $logo-font;
+				
+					span {
+						font-size: 35px;
+					}
+				}
 
-                i {
-                    font-size: 100px;
-                    color: adjust-hue($primary-color, -5);
-                }
-            }
+				i {
+					font-size: 100px;
+					color: adjust-hue($primary-color, -5);
+				}
+			}
 
-            .secondary-text {
-                margin: 40px 0 0 25px;
-                max-width:500px;
-                font-size: 20px;
-                line-height: 1.6;
-            }
-        }
+			.secondary-text {
+				margin: 40px 0 0 25px;
+				max-width:500px;
+				font-size: 20px;
+				line-height: 1.6;
+			}
+		}
 
-        .section-form {
-            right:0;
-            margin-right: 320px;
-            position: absolute;
-            background-color: white;
-            width: 440px;
-            min-height: 500px;
-            color: $dark-color;
-            padding: 40px 50px;
-            border-radius: 5px;
-            box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
-            
-            h2 {
-                font-size: 30px;
-            }
+		.section-form {
+			right:0;
+			margin-right: 320px;
+			position: absolute;
+			background-color: white;
+			width: 440px;
+			min-height: 500px;
+			color: $dark-color;
+			padding: 40px 50px;
+			border-radius: 5px;
+			box-shadow: 0 1px 1px 0 rgba(10,22,70,.1), 0 0 1px 0 rgba(10,22,70,.06), 0 28px 70px -7px rgba(5,15,54,.08);
+			
+			h2 {
+				font-size: 30px;
+			}
 
-            .form {
-                display: flex;
-                flex-direction: column;
+			.form {
+				display: flex;
+				flex-direction: column;
 
-                label, input {
-                    width: 100%;
-                }
-                
-                label {
-                    margin: 25px 0 5px;
-                    display: inline-block;
-                    color: transparentize($dark-color, .3);
-                    font-size: 14px;
-                }
+				label, input {
+					width: 100%;
+				}
+				
+				label {
+					margin: 25px 0 5px;
+					display: inline-block;
+					color: transparentize($dark-color, .3);
+					font-size: 14px;
+				}
 
-                .form-textarea {
-                    resize: none;
-                    height: 280px;
-                }
+				.form-textarea {
+					resize: none;
+					height: 280px;
+				}
 
-                button {
-                    margin-top: 30px;
-                    align-self: flex-end;
-                    padding: 15px 40px;
-                }
-            }
-        }
+				button {
+					margin-top: 30px;
+					align-self: flex-end;
+					padding: 15px 40px;
+				}
+			}
+		}
 
-    }
+	}
 
-    .info-section {
-        background-color: #f5f8fa;
-        min-height: 600px;
-        display: flex;
-        flex-direction: column;
-        padding: 40px 340px 100px;
+	.info-section {
+		background-color: #f5f8fa;
+		min-height: 600px;
+		display: flex;
+		flex-direction: column;
+		padding: 40px 340px 100px;
 
-        h3 {
-            font-size: 21px;
-            padding: 60px 0 20px;
-        }
+		h3 {
+			font-size: 21px;
+			padding: 60px 0 20px;
+		}
 
-        p {
-            max-width: 500px;
-            color: transparentize($dark-color, .3);
-            font-size: 17px;
-            line-height: 1.5;
-        }
-    }
+		p {
+			max-width: 500px;
+			color: transparentize($dark-color, .3);
+			font-size: 17px;
+			line-height: 1.5;
+		}
+	}
 }
 
 @media only screen and (max-width: 1640px) {
-    .main-contacts {
+	.main-contacts {
 
-        .contacts-section {
+		.contacts-section {
 
-            .section-text {
-                margin-left: 100px;
-            }
+			.section-text {
+				margin-left: 100px;
+			}
 
-            .section-form {
-                margin-right: 100px;   
-            }
-        }
+			.section-form {
+				margin-right: 100px;   
+			}
+		}
 
-        .info-section {
-            padding-left: 140px;
-        }
-    }
+		.info-section {
+			padding-left: 140px;
+		}
+	}
 }
 
 @media only screen and (max-width: 1190px) {
-    .main-contacts {
+	.main-contacts {
 
-        .contacts-section {
-            flex-direction: column;
-            align-items: center;
+		.contacts-section {
+			flex-direction: column;
+			align-items: center;
 
-            .section-text {
-                margin-left: 0;
-            }
+			.section-text {
+				margin-left: 0;
+			}
 
-            .section-form {
-                position: static;
-                margin: 80px 0 0;
-                width: 95%; 
-            }
-        }
+			.section-form {
+				position: static;
+				margin: 80px 0 0;
+				width: 95%; 
+			}
+		}
 
-        .info-section {
-            align-items: center;
-            text-align: center;
-            padding: 40px 30px;
-        }
-    }
+		.info-section {
+			align-items: center;
+			text-align: center;
+			padding: 40px 30px;
+		}
+	}
 }
